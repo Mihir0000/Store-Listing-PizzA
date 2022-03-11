@@ -1,0 +1,23 @@
+.header {
+    box-sizing: border-box;
+    margin: 1vmax;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vmax;
+    position: sticky;
+    height: 8vh;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 228, 85);
+    font-size: 2.4vmax;
+    border-radius: 1vmax;
+    color: black;
+}
+.container-header {
+    display: flex;
+    justify-content: space-around;
+}
